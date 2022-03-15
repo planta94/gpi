@@ -1,7 +1,7 @@
 # GPI Calculator
 
 ## Welcome to GPI Calculator
-A Package for Calculating Global Performance Indicator (GPI).
+A Package for Calculating Global Performance Indicator (GPI).<br/>
 Use the GPI Calculator to compute a comprehensive performance metric for your models.
 
 ## Introduction
@@ -10,7 +10,7 @@ The GPI was introduced by Despotovic, et al. (2015) in their publication "Review
 * Chia, M.Y., Huang, Y.F. and Koo, C.H., 2022. Resolving data-hungry nature of machine learning reference evapotranspiration estimating models using inter-model ensembles with various data management schemes. Agricultural Water Management, 261, p.107343.
 
 ## Installation
-Download the folder and paste in your preferred directory
+Download the folder and paste in your preferred directory.
 
 ## Example
 We can import the test.xlsx supplied in the repository using the following lines:
