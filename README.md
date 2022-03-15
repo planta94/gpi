@@ -5,7 +5,7 @@ A Package for Calculating Global Performance Indicator (GPI).
 Use the GPI Calculator to compute a comprehensive performance metric for your models.
 
 ## Introduction
-The GPI was introduced by Despotovic, et al. (2015) in their publication "Review and statistical analysis of different global solar radiation sunshine models". The motivation of creating the GPI was to combine multiple performance evaluation metrics into a single numerical representation for multi-dimensional and comprehensive comparison of different artificial intelligence/empirical models. The GPI metric has been cited and used in various articles such as
+The GPI was introduced by Despotovic, et al. (2015) in their publication "Review and statistical analysis of different global solar radiation sunshine models". The motivation of creating the GPI was to combine multiple performance evaluation metrics into a single numerical representation for multi-dimensional and comprehensive comparison of different artificial intelligence/empirical models. The GPI metric has been cited and used in various articles such as:
 * Chia, M.Y., Huang, Y.F. and Koo, C.H., 2021. Improving reference evapotranspiration estimation using novel inter-model ensemble approaches. Computers and Electronics in Agriculture, 187, p.106227.
 * Chia, M.Y., Huang, Y.F. and Koo, C.H., 2022. Resolving data-hungry nature of machine learning reference evapotranspiration estimating models using inter-model ensembles with various data management schemes. Agricultural Water Management, 261, p.107343.
 
