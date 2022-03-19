@@ -10,7 +10,9 @@ The GPI was introduced by Despotovic, et al. (2015) in their publication "Review
 * Chia, M.Y., Huang, Y.F. and Koo, C.H., 2022. Resolving data-hungry nature of machine learning reference evapotranspiration estimating models using inter-model ensembles with various data management schemes. Agricultural Water Management, 261, p.107343.
 
 ## Installation
-Download the folder and paste in your preferred directory.
+```bash
+pip install gpicalculator
+```
 
 ## Example
 We can import the test.xlsx supplied in the repository using the following lines:
@@ -24,7 +26,7 @@ This will give you a DataFrame named "data" that has 3 columns (MAE, RMSE and R2
 
 Next, import the "GPICalculator" class from the [gpi package](https://github.com/planta94/gpi) to create a GPICalculator object.
 ```bash
-from gpi.gpi import GPICalculator
+from gpicalculator import GPICalculator
 
 calculator = GPICalculator()
 ```
