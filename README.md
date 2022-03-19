@@ -26,7 +26,7 @@ This will give you a DataFrame named "data" that has 3 columns (MAE, RMSE and R2
 
 Next, import the "GPICalculator" class from the [gpi package](https://github.com/planta94/gpi) to create a GPICalculator object.
 ```bash
-from gpicalculator import GPICalculator
+from gpicalc import GPICalculator
 
 calculator = GPICalculator()
 ```
