@@ -31,7 +31,7 @@ from gpicalc import GPICalculator
 calculator = GPICalculator()
 ```
 
-To obtain the GPI score, use the GPICalculator.score() method by including "data" and a list of coefficient as the arguments.
+To obtain the GPI score, use the GPICalculator.score() method by including "data" and a list of coefficient as the parameters.
 ```bash
 coefficient = [1, 1, -1] # Use positive coefficient for metrics to be minimised (MAE, RMSE), and negative coefficient for metrics to be maximized (R2)
 gpi_score = calculator.score(data, coefficient) # GPI is positive-oriented, the higher the better
