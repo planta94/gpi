@@ -1,7 +1,7 @@
 # GPI Calculator
 
 ## Welcome to GPI Calculator
-A Package for Calculating Global Performance Indicator (GPI).<br/>
+A Package for Calculating Global Performance Indicator (GPI)<br/>
 Use the GPI Calculator to compute a comprehensive performance metric for your models.
 
 ## Introduction
@@ -11,7 +11,7 @@ The GPI was introduced by Despotovic, et al. (2015) in their publication "Review
 
 ## Installation
 ```bash
-pip install gpicalculator
+pip install gpicalc
 ```
 
 ## Example
