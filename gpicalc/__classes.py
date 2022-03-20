@@ -16,7 +16,7 @@ class GPICalculator():
             self.median.append(np.median(self.norm_data[:,i]))
             self.norm_data[:,i] = self.coefficient[i] * (self.median[i] - self.norm_data[:,i])
         self.gpi = np.sum(self.norm_data, axis=1)
-        self.gpi = pd.DataFrame(self.gpi, index=data.index, columns=['GPI Score'])
+        self.gpi = pd.DataFrame(self.gpi, index=self.data.index, columns=['GPI Score'])
         return self.gpi
     
     
