@@ -10,7 +10,7 @@ class GPICalculator():
         self.data = data
         self.coefficient = coefficient
         self.scaler = MinMaxScaler()
-        self.norm_data = scaler.fit_transform(self.data)
+        self.norm_data = self.scaler.fit_transform(self.data)
         self.median = list()
         for i in range(np.shape(self.norm_data)[1]):
             self.median.append(np.median(self.norm_data[:,i]))
