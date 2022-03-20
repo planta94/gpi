@@ -9,14 +9,14 @@ class GPICalculator():
     def score(self, data, coefficient):
         self.data = data
         self.coefficient = coefficient
-        scaler = MinMaxScaler()
-        norm_data = scaler.fit_transform(data)
-        median = list()
-        for i in range(np.shape(norm_data)[1]):
-            median.append(np.median(norm_data[:,i]))
-            norm_data[:,i] = coefficient[i] * (median[i] - norm_data[:,i])
-        gpi = np.sum(norm_data, axis=1)
-        gpi = pd.DataFrame(gpi, index=data.index, columns=['GPI Score'])
-        return gpi
+        self.scaler = MinMaxScaler()
+        self.norm_data = scaler.fit_transform(self.data)
+        self.median = list()
+        for i in range(np.shape(self.norm_data)[1]):
+            self.median.append(np.median(self.norm_data[:,i]))
+            self.norm_data[:,i] = self.coefficient[i] * (self.median[i] - self.norm_data[:,i])
+        self.gpi = np.sum(self.norm_data, axis=1)
+        self.gpi = pd.DataFrame(self.gpi, index=data.index, columns=['GPI Score'])
+        return self.gpi
     
     
